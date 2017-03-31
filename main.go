@@ -1,14 +1,9 @@
 package main
 
-import (
-	"fmt"
+import "fmt"
 
-	"github.com/spenczar/retool_test_lib"
-)
-
-const version = "v2"
+const version = "v3"
 
 func main() {
-	_ = retool_test_lib.Exported
 	fmt.Println(version)
 }
