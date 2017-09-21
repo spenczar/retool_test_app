@@ -2,4 +2,6 @@
 
 package main
 
-const goVersion = 1.8
+import "github.com/spenczar/retool_test_app/dep_go18"
+
+const goVersion = dep_go18.V
